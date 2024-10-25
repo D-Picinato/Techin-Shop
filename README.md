@@ -6,7 +6,7 @@ A proposta do sistema, é disponibilizar funcionalidades para que qualquer usuá
 
 ## TechinCoin
 
-**TechinCoin** (T$) é a moeda de troca dentro do **Techin Shop**. Os usuários podem adquiri-la de maneira simples através de uma área do sistema, onde há um botão interativo que, ao ser clicado, concede uma quantidade fixa de TechinCoins. O diferencial dessa área é que o botão muda de posição a cada clique, adicionando um pequeno desafio dinâmico. Isso permite que os usuários acumulem TechinCoins de uma forma rápida e sem restrições complexas, até mesmo porque o usuário não vai usar o sistema por muito tempo.
+**TechinCoin** (TC$) é a moeda de troca dentro do **Techin Shop**. Os usuários podem adquiri-la de maneira simples através de uma área do sistema, onde há um botão interativo que, ao ser clicado, concede uma quantidade fixa de TechinCoins. O diferencial dessa área é que o botão muda de posição a cada clique, adicionando um pequeno desafio dinâmico. Isso permite que os usuários acumulem TechinCoins de uma forma rápida e sem restrições complexas, até mesmo porque o usuário não vai usar o sistema por muito tempo.
 
 # Funcionalidades
 
