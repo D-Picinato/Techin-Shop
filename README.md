@@ -1,12 +1,12 @@
-# Techpin Shop
+# Techin Shop
 
-Techpin Shop é um e-commerce que foi pensado para solucionar o problema da minha falta de prática com o desenvolvimento de API Restful e arquitetura MVC (Model View Controller), também porque preciso entregar um trabalho de banco de dados daqui 4 dias (29/10/2024); por isso decidi juntar o útil ao agradável e desenvolver o sistema Techpin Shop.
+Techin Shop é um e-commerce que foi pensado para solucionar o problema da minha falta de prática com o desenvolvimento de API Restful e arquitetura MVC (Model View Controller), também porque preciso entregar um trabalho de banco de dados daqui 4 dias (29/10/2024); por isso decidi juntar o útil ao agradável e desenvolver o sistema Techin Shop.
 
-A proposta do sistema, é disponibilizar funcionalidades para que qualquer usuário possa se cadastrar no sistema e simular a venda e compra de produtos não tangíveis, usando uma moeda de troca própria chamada **TepinCoin** (TC$).
+A proposta do sistema, é disponibilizar funcionalidades para que qualquer usuário possa se cadastrar no sistema e simular a venda e compra de produtos não tangíveis, usando uma moeda de troca própria chamada **TechinCoin** (TC$).
 
-## TepinCoin
+## TechinCoin
 
-**TepinCoin** (T$) é a moeda de troca dentro do **Techpin Shop**. Os usuários podem adquiri-la de maneira simples através de uma área do sistema, onde há um botão interativo que, ao ser clicado, concede uma quantidade fixa de TepinCoins. O diferencial dessa área é que o botão muda de posição a cada clique, adicionando um pequeno desafio dinâmico. Isso permite que os usuários acumulem TepinCoins de uma forma rápida e sem restrições complexas, até mesmo porque o usuário não vai usar o sistema por muito tempo.
+**TechinCoin** (T$) é a moeda de troca dentro do **Techin Shop**. Os usuários podem adquiri-la de maneira simples através de uma área do sistema, onde há um botão interativo que, ao ser clicado, concede uma quantidade fixa de TechinCoins. O diferencial dessa área é que o botão muda de posição a cada clique, adicionando um pequeno desafio dinâmico. Isso permite que os usuários acumulem TechinCoins de uma forma rápida e sem restrições complexas, até mesmo porque o usuário não vai usar o sistema por muito tempo.
 
 # Funcionalidades
 
@@ -28,7 +28,7 @@ Os usuários têm a capacidade de cadastrar produtos no marketplace para venda. 
 - **Edição de Produtos**: Os usuários podem editar as informações de produtos já cadastrados a qualquer momento.
 
 ## Marketplace
-O marketplace do **Techpin Shop** é onde a interação entre compradores e vendedores acontece. Ele oferece várias funcionalidades que facilitam a busca e filtragem de produtos.
+O marketplace do **Techin Shop** é onde a interação entre compradores e vendedores acontece. Ele oferece várias funcionalidades que facilitam a busca e filtragem de produtos.
 
 ### Requisitos:
 - **Pesquisa de Produtos**: Os usuários podem buscar produtos por nome ou tags, facilitando a localização de itens específicos.
@@ -48,11 +48,11 @@ A funcionalidade de compra e venda de produtos é o coração do sistema, permit
 ### Requisitos:
 - **Compra Individual**: Os usuários podem comprar produtos diretamente da página do produto.
 - **Compra pelo Carrinho**: Os usuários podem finalizar a compra de todos os produtos que adicionaram ao carrinho.
-- **Processamento da Compra**: Quando um usuário realiza uma compra, o valor total é descontado do saldo de TepinCoins do comprador, o valor é creditado na conta do vendedor e a quantidade disponível do produto é reduzida de acordo com a quantidade comprada. O sistema deve registrar a transação para futuras referências e relatórios.
+- **Processamento da Compra**: Quando um usuário realiza uma compra, o valor total é descontado do saldo de TechinCoins do comprador, o valor é creditado na conta do vendedor e a quantidade disponível do produto é reduzida de acordo com a quantidade comprada. O sistema deve registrar a transação para futuras referências e relatórios.
 
 # Arquitetura e Tecnologias
 
-O **Techpin Shop** é construído com uma arquitetura baseada em **MVC (Model View Controller)**, o que permite uma separação clara das responsabilidades entre as diferentes camadas do sistema. Essa abordagem facilita a manutenção e escalabilidade do aplicativo, além de promover uma melhor organização do código.
+O **Techin Shop** é construído com uma arquitetura baseada em **MVC (Model View Controller)**, o que permite uma separação clara das responsabilidades entre as diferentes camadas do sistema. Essa abordagem facilita a manutenção e escalabilidade do aplicativo, além de promover uma melhor organização do código.
 
 ## Arquitetura MVC
 - **Model**: Representa a estrutura de dados, a lógica de negócios da aplicação e persistência dos dados, responsável por interagir com o banco de dados e realizar operações de CRUD (criação, leitura, atualização e exclusão) de dados.
